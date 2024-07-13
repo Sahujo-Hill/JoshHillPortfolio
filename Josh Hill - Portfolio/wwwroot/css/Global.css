@@ -1,0 +1,368 @@
+﻿a {
+    text-decoration: none;
+}
+
+html {
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    height:100%;
+}
+
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(from 180deg at 50% 50%, #122326 0deg, rgba(144, 202, 212, 0.29) 360deg);
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    width: 50%;
+    margin: auto;
+}
+
+.alice-regular {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rubik-regular {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.frame {
+    height: 100%;
+    width: 100%;
+}
+
+.primaryBG {
+    padding: 25px;
+    height: 100%;
+}
+
+.projectsBG {
+    padding: 25px;
+    height: 100%;
+    background: conic-gradient(from 180deg at 50% 50%, #122326 0deg, rgba(60, 144, 114, 0.64) 180deg, rgba(144, 202, 212, 0.29) 360deg);
+}
+
+.backgroundBG {
+    padding: 25px;
+    height: 100%;
+    background: conic-gradient(from 180deg at 50% 50%, #122326 0deg, rgba(144, 73, 60, 0.64) 180deg, rgba(144, 202, 212, 0.29) 360deg);
+}
+
+.border {
+    height: 100%;
+    box-shadow: inset 0 0 0 5px white;
+}
+
+.arrow1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.arrow2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.arrow3 {
+    float: right;
+    transform: rotate(90deg);
+    margin-top: 65px;
+    margin-right: -52px;
+}
+
+.arrow3ALT {
+    transform: rotate(90deg);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8%;
+    padding-bottom: 3%;
+}
+
+.arrow4 {
+    float: right;
+    margin-top: 142px;
+    margin-right: -56px;
+}
+
+.arrow4ALT {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5%;
+    padding-top: 5.5%;
+}
+
+.titleSection {
+    margin-top: 63px;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}
+
+.titleJosh {
+    width: 571px;
+    color: #FFF;
+    font-family: Alice;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 60px;
+    z-index: 20;
+}
+
+.titleHill {
+    margin-top: -95px;
+    margin-right: 0px;
+    width: 513px;
+    color: #4D7682;
+    font-family: Alice;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 60px;
+    filter: blur(11px);
+    z-index: 10;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+.titleProjects {
+    color: #FFF;
+    font-family: Alice;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 60px;
+    z-index: 20;
+}
+
+.titleProjectsReflected {
+    margin-top: -95px;
+    font-family: Alice;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 60px;
+    background: linear-gradient(270deg, rgba(77, 118, 130, 0.63) 9%, rgba(60, 144, 114, 0.64) 58%, #10191C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: blur(14px);
+    transform: rotate(180deg) scaleX(-1);
+    z-index: 10;
+}
+
+.titleBackground {
+    color: #FFF;
+    font-family: Alice;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 60px;
+    z-index: 20;
+}
+
+.titleBackgroundReflected {
+    margin-top: -95px;
+    font-family: Alice;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 60px;
+    background: linear-gradient(270deg, rgba(144, 73, 60, 0.31) 0%, rgba(105, 55, 46, 0.86) 97.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: blur(14px);
+    transform: rotate(180deg) scaleX(-1);
+    z-index: 10;
+}
+
+.titleMotto {
+    margin-top: -133px;
+    padding-right: 63px;
+    color: #000;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 5px;
+    z-index: 11;
+}
+
+.navigationSection{
+    margin-top: 120px;;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    justify-content: center;
+    gap: 35px;
+}
+
+.projectsNav {
+    width: 241px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 12px;
+    text-decoration: none;
+    
+}
+
+.projectsLink {
+    padding-top: 300px;
+}
+
+.projectsNav:hover {
+    color: black;
+}
+
+.backgroundLink {
+    padding-top: 45px;
+}
+
+.projectList {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 100%;
+    padding-right: 825px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectTitle {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 12px;
+    width: 100%;
+}
+
+.projectDesc {
+    color: #000;
+    text-align: right;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6px;
+    width: 805px;
+}
+
+.projectLink:hover {
+    opacity: 60%;
+}
+
+.infoContainer {
+    width: 805px;
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+    padding-left: 900px;
+}
+
+.infoTitle {
+    color: #000;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 12px;
+    padding-right: 457px;
+    padding-bottom: 35px;
+}
+
+.info {
+    color: #000;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6px;
+    width: 805px;
+    height: 351px;
+}
+
+.goBackNav {
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.goBack:hover {
+    color: white;
+}
+
+.goBackNavALT {
+    text-decoration: none;
+    float: right;
+    margin-top: 10.5%;
+    margin-right: 1.5%;
+}
+
+.goBack {
+    color: #000;
+    text-align: right;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 5px;
+}
+
+.goBackALT {
+    color: #000;
+    text-align: right;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 5px;
+}
+
+.goBackALT:hover {
+    color: white;
+}
