@@ -214,7 +214,7 @@ main {
 }
 
 .navigationSection{
-    margin-top: 120px;;
+    margin-top: 120px;
     width: 50%;
     height: 50%;
     display: flex;
@@ -366,3 +366,125 @@ main {
 .goBackALT:hover {
     color: white;
 }
+
+@media only screen and (max-width: 1050px) {
+
+    main {
+        overflow: hidden;
+    }
+
+    .titleSection {
+        width: 100%;
+    }
+
+    .titleJosh {
+        font-size: 100%;
+        letter-spacing: 50px;
+    }
+
+    .titleHill {
+        margin-top: -95px;
+        margin-right: 0px;
+        width: 100%;
+        color: #4D7682;
+        font-family: Alice;
+        font-size: 200px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 60px;
+        filter: blur(11px);
+        z-index: 10;
+        transform: rotate(180deg) scaleX(-1);
+    }
+
+    .titleMotto {
+        font-size: 100%;
+    }
+
+    .navigationSection {
+        margin: 0%;
+        padding: 50%;
+        height: 100%;
+        width: 100%;
+    }
+
+    .projectsNav {
+        font-size: 100%;
+    }
+
+    /*Projects Page*/
+
+    .titleProjects {
+        font-size: 100%;
+        letter-spacing: 25px;
+    }
+
+    .projectTitle {
+        font-size: 80%;
+        letter-spacing: 5px;
+    }
+
+    .projectDesc {
+        opacity: 0%;
+    }
+
+    .projectList {
+        align-items: flex-end;
+        padding-right: 50%;
+        padding-top: 50%;
+    }
+
+   .goBack {
+       opacity: 0%;
+   }
+
+   /*Background Page*/
+
+
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    .projectsNav {
+        font-size: 65%;
+        letter-spacing: 5px;
+    }
+
+
+    .projectTitle {
+        font-size: 80%;
+        letter-spacing: 5px;
+        height: auto;
+        width:100%;
+    }
+
+    .projectList {
+        padding-right: 0%;
+        padding-top: 0%;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+
+    .titleSection {
+        width: 100%;
+    }
+
+    .titleJosh {
+        font-size: 100%;
+        letter-spacing: 50px;
+    }
+
+    .projectsNav {
+        font-size: 100%;
+        letter-spacing: 5px;
+    }
+
+    .titleMotto {
+        font-size: 100%;
+    }
+
+}
+
