@@ -320,7 +320,7 @@ main {
     text-decoration: none;
     float: right;
     margin-top: 4%;
-    margin-right: 20px;
+    margin-right: 1%;
 }
 
 .goBack:hover {
@@ -330,6 +330,8 @@ main {
 .goBackNavALT {
     text-decoration: none;
     float: right;
+    margin-right: 1%;
+    margin-top: -0.4%;
 }
 
 .goBack {
@@ -391,11 +393,11 @@ main {
 
     .titleMotto {
         font-size: 100%;
+        letter-spacing: 5px;
     }
 
     .navigationSection {
         margin: 0%;
-        padding: 50%;
         height: 100%;
     }
 
@@ -438,6 +440,40 @@ main {
    }
 
    /*Background Page*/
+
+   .titleBackground {
+       font-size: 100%;
+       letter-spacing: 20px;
+   }
+
+   .goBackNavALT {
+       display: none;
+   }
+
+   .infoContainer {
+       height: 50%;
+       width: 80%;
+       margin-left: 10%;
+       align-items: center;
+       background-color: white;
+   }
+
+   .infoTitle {
+       font-size: 100%;
+       padding-top: 2%;
+       padding-left: 5%;
+       padding-left: 5%;
+       padding-bottom: 0%;
+       align-self: flex-start;
+
+   }
+    .info {
+        width: 100%;
+        height: auto;
+        font-size: 76%;
+        letter-spacing: 3px;
+        padding: 5%;
+    }
 
 
 
