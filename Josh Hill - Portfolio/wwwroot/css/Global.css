@@ -316,7 +316,7 @@ main {
 .info {
     color: #000;
     font-family: Rubik;
-    font-size: 20px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -451,9 +451,10 @@ main {
         display: none;
     }
 
-   .goBack {
-       display: none;
-   }
+    .goBack {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
 
    /*Background Page*/
 
@@ -463,9 +464,10 @@ main {
        padding-right: 5%;
    }
 
-   .goBackNavALT {
-       display: none;
-   }
+    .goBackALT {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
 
    .infoContainer {
        height: 50%;
@@ -502,3 +504,11 @@ main {
     }
 }
 
+
+@media only screen and (max-width: 385px) {
+    
+    .info {
+        font-size: 8px;
+    }
+
+}
