@@ -384,8 +384,9 @@ main {
     }
 
     .titleJosh {
-        font-size: 100%;
-        letter-spacing: 50px;
+        font-size: 40px;
+        letter-spacing: 30px;
+        padding-right: 40px;
     }
 
     .titleHill {
