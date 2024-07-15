@@ -251,10 +251,14 @@ main {
 }
 
 .projectList {
-    width: 50%;
-    display: flex;
+    height: 50%;
     flex-direction: column;
     text-align: right;
+    width: 100%;
+    align-content:center;
+    padding-left: 5%;
+    padding-right: 50%;
+    margin: auto;
 }
 
 .projectTitle {
@@ -312,7 +316,7 @@ main {
 .info {
     color: #000;
     font-family: Rubik;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -424,8 +428,9 @@ main {
     /*Projects Page*/
 
     .titleProjects {
-        font-size: 100%;
-        letter-spacing: 25px;
+        font-size: 40px;
+        letter-spacing: 15px;
+        padding-right: 30px;
     }
 
     .titleProjectsReflected {
@@ -434,23 +439,16 @@ main {
     .projectTitle {
         font-size: 80%;
         letter-spacing: 5px;
+        padding-top: 15px;
+  
     }
 
-    .project {
-        margin-top: 10%;
+    .projectList {
+
     }
 
     .projectDesc {
         display: none;
-    }
-
-    .projectList {
-        width: 50%;
-        height: 75%;
-        padding-left: 5%;
-        padding-bottom: 5%;
-        gap: 5px;
-        justify-content: center;
     }
 
    .goBack {
@@ -460,8 +458,9 @@ main {
    /*Background Page*/
 
    .titleBackground {
-       font-size: 100%;
-       letter-spacing: 20px;
+       font-size: 35px;
+       letter-spacing: 10px;
+       padding-right: 5%;
    }
 
    .goBackNavALT {
@@ -497,46 +496,9 @@ main {
 
 }
 
-/*@media only screen and (max-width: 650px) {
-
-    .projectsNav {
-        font-size: 65%;
-        letter-spacing: 5px;
-    }
-
-
-    .projectTitle {
-        font-size: 80%;
-        letter-spacing: 5px;
-        height: auto;
-        width:100%;
-    }
-
+@media only screen and (min-height: 1190px) {
     .projectList {
-        padding-right: 0%;
-        padding-top: 0%;
+        height: 75%;
     }
 }
-
-@media only screen and (max-height: 800px) {
-
-    .titleSection {
-        width: 100%;
-    }
-
-    .titleJosh {
-        font-size: 100%;
-        letter-spacing: 50px;
-    }
-
-    .projectsNav {
-        font-size: 100%;
-        letter-spacing: 5px;
-    }
-
-    .titleMotto {
-        font-size: 100%;
-    }
-
-}*/
 
