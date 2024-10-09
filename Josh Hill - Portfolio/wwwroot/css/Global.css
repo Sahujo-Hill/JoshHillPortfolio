@@ -283,6 +283,17 @@ main {
     letter-spacing: 3px;
 }
 
+.projectDisclaimer {
+    font-style: italic;
+    color: white;
+    text-align: right;
+    font-family: Rubik;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
 .projectLink {
     text-decoration: none;
 }
